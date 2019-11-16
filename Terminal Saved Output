@@ -1,0 +1,140 @@
+Last login: Thu Nov 14 23:09:09 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Akashs-MacBook-Pro:~ akashnair$ git --version
+git version 2.21.0 (Apple Git-122.2)
+(base) Akashs-MacBook-Pro:~ akashnair$ git config user.name
+(base) Akashs-MacBook-Pro:~ akashnair$ git config user.email
+(base) Akashs-MacBook-Pro:~ akashnair$ git config --global user.name "spitfyre24"
+(base) Akashs-MacBook-Pro:~ akashnair$ git config --global user.email "rexkash1999@gmail.com"
+(base) Akashs-MacBook-Pro:~ akashnair$ git config user.email
+rexkash1999@gmail.com
+(base) Akashs-MacBook-Pro:~ akashnair$ git config user.name
+spitfyre24
+(base) Akashs-MacBook-Pro:~ akashnair$ git config user.name
+spitfyre24
+(base) Akashs-MacBook-Pro:~ akashnair$ ls
+Applications		Movies			ev to joules
+Calibre Library		Music			h5py 
+Desktop			Pictures		opt
+Documents		Public			readligo.py
+Downloads		Visualize GBplaces	spyder_crash.log
+Google Drive		__pycache__		trying hdf5
+Library			anaconda
+Ligo Wave Data		anaconda3
+(base) Akashs-MacBook-Pro:~ akashnair$ cd Desktop/
+(base) Akashs-MacBook-Pro:Desktop akashnair$ ls
+64908913_2262952923826350_5885345594959986688_n.jpg
+All that gliters Tengwar.jpg
+Certificate Of Good Conduct
+Curriculum Vitae.pages
+E-PAY @UM _ Universiti Malaya.pdf
+ET7TQM_6299BF7C67CE4E62BA223643F86DBB75.pdf
+EmiratesOnlineCheckin.pdf
+F3QMSX_CA391507B1C341A0A63AD333D0CE4905.pdf
+I3DK8H_4E99808F7784413A8D379176ACBC6318.pdf
+Internship
+LHC Booklet.pdf
+Manchester Details
+Physical Constants and Conversion Factors.pdf
+Relocated Items
+Screen Shot 2018-09-19 at 12.24.16 PM.png
+Screenshot 2019-01-22 at 4.19.52 PM.png
+Screenshot 2019-04-03 at 12.03.29 AM.png
+Screenshot 2019-04-16 at 8.06.52 PM.png
+Screenshot 2019-05-11 at 11.37.40 AM.png
+Screenshot 2019-05-16 at 12.20.42 AM.png
+Screenshot 2019-05-17 at 1.14.37 PM.png
+Screenshot 2019-05-23 at 2.34.43 PM.png
+Screenshot 2019-05-25 at 11.21.49 AM.png
+Screenshot 2019-05-27 at 10.21.48 AM.png
+Screenshot 2019-05-28 at 1.01.05 PM.png
+Screenshot 2019-05-28 at 10.02.31 PM.png
+Screenshot 2019-05-28 at 10.27.35 AM.png
+Screenshot 2019-05-28 at 11.20.04 AM.png
+Screenshot 2019-05-28 at 4.15.02 PM.png
+Screenshot 2019-05-28 at 4.48.46 PM.png
+Screenshot 2019-05-30 at 10.03.36 PM.png
+Screenshot 2019-05-30 at 2.41.41 PM.png
+Screenshot 2019-05-30 at 7.40.25 PM.png
+Screenshot 2019-06-02 at 5.16.59 PM.png
+Screenshot 2019-06-03 at 12.32.45 PM.png
+Screenshot 2019-06-25 at 12.00.09 AM.png
+Screenshot 2019-06-25 at 12.03.41 AM.png
+Screenshot 2019-07-12 at 10.23.12 PM.png
+Screenshot 2019-08-10 at 12.42.55 AM.png
+Screenshot 2019-09-03 at 10.33.50 PM.png
+Screenshot 2019-09-03 at 10.37.20 PM.png
+Screenshot 2019-09-06 at 10.32.41 PM.png
+Screenshot 2019-09-09 at 7.06.21 PM.png
+Screenshot 2019-09-10 at 10.11.34 PM.png
+Screenshot 2019-09-22 at 10.30.20 PM.png
+Screenshot 2019-09-23 at 6.02.22 PM.png
+Screenshot 2019-09-27 at 11.27.59 PM.png
+Screenshot 2019-10-18 at 12.30.00 AM.png
+Screenshot 2019-10-18 at 12.30.05 AM.png
+Screenshot 2019-10-27 at 4.03.49 PM.png
+Screenshot 2019-11-06 at 10.16.09 PM.png
+Screenshot 2019-11-09 at 1.25.28 PM.png
+Simple planet orbital
+Spotify Music
+TG Stat Mech.pdf
+Ticketmaster Member Services - Print Receipt.pdf
+Transcripts
+Untitled Document.pdf
+k1000, n999, 0.005h.png
+(base) Akashs-MacBook-Pro:Desktop akashnair$ git clone https://github.com/spitfyre24/git_workshop_GUH19.git
+Cloning into 'git_workshop_GUH19'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+(base) Akashs-MacBook-Pro:Desktop akashnair$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+(base) Akashs-MacBook-Pro:Desktop akashnair$ git_workshop_GUH19
+-bash: git_workshop_GUH19: command not found
+(base) Akashs-MacBook-Pro:Desktop akashnair$ git git_workshop_GUH19
+git: 'git_workshop_GUH19' is not a git command. See 'git --help'.
+(base) Akashs-MacBook-Pro:Desktop akashnair$ cd git_workshop_GUH19
+(base) Akashs-MacBook-Pro:git_workshop_GUH19 akashnair$ branch
+-bash: branch: command not found
+(base) Akashs-MacBook-Pro:git_workshop_GUH19 akashnair$ git branch
+* master
+(base) Akashs-MacBook-Pro:git_workshop_GUH19 akashnair$ git checkout -b "testing-1-2-3"
+Switched to a new branch 'testing-1-2-3'
+(base) Akashs-MacBook-Pro:git_workshop_GUH19 akashnair$ git branch
+  master
+* testing-1-2-3
+(base) Akashs-MacBook-Pro:git_workshop_GUH19 akashnair$ textedit .
+-bash: textedit: command not found
+(base) Akashs-MacBook-Pro:git_workshop_GUH19 akashnair$ nano .
+(base) Akashs-MacBook-Pro:git_workshop_GUH19 akashnair$ TextEdit .
+-bash: TextEdit: command not found
+(base) Akashs-MacBook-Pro:git_workshop_GUH19 akashnair$ nano .
+
+  GNU nano 2.0.6                New Buffer                            Modified  
+
+Hallo World
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
